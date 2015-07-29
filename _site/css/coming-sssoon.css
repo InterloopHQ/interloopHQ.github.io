@@ -310,10 +310,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     padding: 6px 16px;
 }
 
-input.form-control {
-    min-width:250px;
-}
-
 .form-control:focus {
     background-color: #FFFFFF;
     border: 1px solid #fff;
@@ -623,7 +619,7 @@ input.form-control {
 @media (max-width: 768px){ 
     .navbar-transparent{
         padding-top: 0px;
-        background-color: rgba(52, 59, 68, 0.75);
+       background-color: rgba(52, 59, 68, 0.75);
     }
     .navbar-transparent .navbar-collapse.in .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-transparent .navbar-collapse.in .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-transparent .dropdown-menu > li > a:hover, .navbar-transparent .dropdown-menu > li > a:focus, [class*="navbar-ct"] .dropdown-menu > li > a:hover, [class*="navbar-ct"] .dropdown-menu > li > a:focus{
         color: #FFFFFF;
@@ -821,8 +817,29 @@ input.form-control {
         margin-bottom: 50px;
     }
 
+    .main .logo {
+        margin-top:80px !important;
+        margin-left:-20px !important;
+    }
+
+    .main .motto {
+        font-size:32px !important;
+    }
+    
+
     .ipad > img {
         max-width:560px !important;
+    }
+
+    .iphone > img {
+       /* position: absolute;
+        bottom:0;
+        left:0;
+        right:0;*/
+        display:block;
+        max-width:240px;
+        margin:auto;
+
     }
 
 }
