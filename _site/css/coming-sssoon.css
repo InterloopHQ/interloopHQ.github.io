@@ -832,13 +832,20 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     }
 
     .iphone > img {
-       /* position: absolute;
-        bottom:0;
-        left:0;
-        right:0;*/
+     
         display:block;
         max-width:240px;
         margin:auto;
+
+    }
+
+}
+
+@media (max-height:500px){
+
+    .iphone > img {
+     
+        display:none;
 
     }
 
