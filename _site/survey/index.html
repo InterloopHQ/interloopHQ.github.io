@@ -77,7 +77,7 @@
             <fieldset>
             <div class="row">
                 <div class="col-md-7">
-        	       <label>How did you hear about Interloop</label>
+        	       <label>How did you hear about Interloop?</label>
         	    </div>
         	</div>
         	<div class="row">
@@ -129,7 +129,7 @@
             </div>
             </div>
             <br>
-        	<label>What size is your organization</label>
+        	<label>What size is your organization?</label>
            <div class="row">
         	<div class="col-md-2"></div>
         	<div class="col-md-10">
@@ -165,7 +165,7 @@
             </div> 
             <br>
 
-            <label>Does your organization currently have a CRM</label>
+            <label>Does your organization currently have a CRM?</label>
            <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-10">
@@ -190,7 +190,7 @@
             </div> 
             <br>
 
-            <label> If yes, what CRM</label>
+            <label> If yes, what CRM?</label>
            <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-10">
@@ -263,7 +263,7 @@
         	<br>
 
 
-            <label> How complex is your sales process</label>
+            <label> How complex is your sales process?</label>
            <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-10">
@@ -272,31 +272,31 @@
                     <div class="col-md-12">
                     <label class="radio">
                         <input type="radio" name="Sales_Process" value="Not Complex" data-toggle="radio">
-                        <b>Not complex</b> - Can close a deal within a single phone call (Days)
+                        <b>Not complex</b> - Can close a deal within a single phone call (~Day to Days)
                     </label>
                     </div>
                     <div class="col-md-12">
                     <label class="radio">
                         <input type="radio" name="Sales_Process" value="Somewhat Complex" data-toggle="radio">
-                        <b>Somewhat complex</b> - takes multiple interactions to close deal (Days to Weeks)
+                        <b>Somewhat complex</b> - Takes multiple interactions to close a deal (~Days to Weeks)
                     </label>
                     </div>
                     <div class="col-md-12">
                     <label class="radio">
                         <input type="radio" name="Sales_Process" value="Complex" data-toggle="radio">
-                        <b>Complex</b> - closing deals often takes demos, conversations, and quite a few interactions (Multiple Weeks - Months)
+                        <b>Complex</b> - Closing deals often takes demos, conversations, and quite a few interactions (~Weeks - Months)
                     </label>
                     </div>
                     <div class="col-md-12">
                     <label class="radio">
                         <input type="radio" name="Sales_Process" value="Quite Complex" data-toggle="radio">
-                        <b>Quite Complex</b> - closing deals involves deep understanding of customer needs and intensive demo tailoring and visioning before a sale (months to years)
+                        <b>Quite Complex</b> - closing deals involves deep understanding of customer needs and intensive demo tailoring and visioning before a sale (~Months to A Year)
                     </label>
                     </div>
                     <div class="col-md-12">
                     <label class="radio">
                         <input type="radio" name="Sales_Process" value="Extremely Complex" data-toggle="radio">
-                        <b>Extremely Complex</b> - Deals can take several years and involve lots of people across multiple groups, departments, and influencers (years) 
+                        <b>Extremely Complex</b> - Deals can take several years and involve lots of people across multiple groups, departments, and influencers (~A Year to Years) 
                     </label>
                     </div>
                    
@@ -307,7 +307,7 @@
             <br>
       
 
-             <label>What is your toughest challenge with using CRM with teams</label>
+             <label>What is your toughest challenge with using CRM with teams?</label>
            <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-10">
@@ -427,6 +427,11 @@
 
         <!-- //redirect -->
         <input type="hidden" name="_next" value="http://interloop.io/thanks/" />
+
+        <input type="hidden" name="source" value="Survey" >
+        <input type="hidden" name="_subject" value="New Survey Completed" >
+      <!--   //parser to send to google sheet    --> 
+      <input type="hidden" name="_cc" value="exnhsqb5@robot.zapier.com" />
         
         <input class="sheet-box-submit pull-right" type="submit" value="Submit Answers">
 
