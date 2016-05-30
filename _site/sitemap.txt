@@ -1,5 +1,0 @@
-
-/atom.xml
-/index.html
-/rss.xml
-/sitemap.txt

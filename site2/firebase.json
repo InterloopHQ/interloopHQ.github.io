@@ -1,9 +1,0 @@
-{
-  "firebase": "interloop-site2",
-  "public": "",
-  "ignore": [
-    "firebase.json",
-    "**/.*",
-    "**/node_modules/**"
-  ]
-}
