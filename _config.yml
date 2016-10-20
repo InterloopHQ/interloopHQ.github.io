@@ -19,3 +19,7 @@ markdown: kramdown
 
 gems:
   - octopress-autoprefixer
+
+keep_files: [
+   '.well-known/acme-challenge'
+]
