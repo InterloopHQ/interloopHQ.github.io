@@ -20,6 +20,6 @@ markdown: kramdown
 gems:
   - octopress-autoprefixer
 
-keep_files: [
+include: [
    '.well-known/acme-challenge'
 ]
