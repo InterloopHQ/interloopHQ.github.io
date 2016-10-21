@@ -21,5 +21,5 @@ gems:
   - octopress-autoprefixer
 
 include: [
-   '.well-known/acme-challenge/itzv-UpjsCoFRZHH7SoGehX9icbbxi_aQeDMK94C9Z8''
+   '.well-known/acme-challenge/itzv-UpjsCoFRZHH7SoGehX9icbbxi_aQeDMK94C9Z8'
 ]
