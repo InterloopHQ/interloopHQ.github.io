@@ -6,6 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
+
+url: https://interloop.ai
+enforce_ssl: interloop.ai
 title: Interloop | Sales Execution Platform
 email: hi@interloop.io
 description: "Sales Execution powered by IBM Watson"
