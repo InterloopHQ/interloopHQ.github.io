@@ -326,9 +326,35 @@
     	window.onload = function() {
 			/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 			particlesJS.load('particles', 'particles.json', function() {
-			  console.log('callback - particles.js config loaded');
+			  // console.log('callback - particles.js config loaded');
 			});
 		};
+    </script>
+
+    <!-- //gets latest blogs -->
+    <script type="text/javascript" src="https://blog.interloop.ai/shared/ghost-url.min.js"></script>
+    <script>
+        ghost.init({
+            clientId: "ghost-frontend",
+            clientSecret: "4e727000d448"
+        });
+
+        function onSuccess(data) {
+            console.log('on success')
+          var $result = $('#blog-posts');
+          $.each(data.posts, function (i, post) {
+            $result.append(
+              '<li>' + post.title + '</li>'
+            );
+            console.log('posts',post)
+          });
+        }  
+
+        jQuery(document).ready(function () {
+          $.get(
+            ghost.url.api('posts', {limit: 3})
+          ).done(onSuccess);
+        });
     </script>
 
     <!-- jQuery -->
@@ -340,7 +366,9 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="/js/jquery.easing.min.js"></script>
     <script src="/js/scrolling-nav.js"></script>
-  
+
+    <!-- sumo me -->
+    <script src="//load.sumome.com/" data-sumo-site-id="8a0d04db7ee874a1fbe29dec7eda9805f1d75723b5e75170188dd82f95f3e9a0" async="async"></script>  
 
         
     </body>

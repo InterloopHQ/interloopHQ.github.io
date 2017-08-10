@@ -289,7 +289,8 @@
                 </div>
               
 
-
+                <br>
+                <br>
                 <div class="col-xs-12 text-center">
                  <a href="/product" class="btn btn-primary text-center">Learn More <icon class="wb-arrow-right"></icon></a>
                 </div>
@@ -311,7 +312,7 @@
                     <p>Interloop uses machine learning to auto parse your calendar, emails, contacts, tickets, & other custom datasources to understand the state of your pipeline</p>
 
                     <br>
-                    <img style="margin:auto;" class="img-responsive text-center" src="http://via.placeholder.com/350x350">
+                    <img style="margin:auto; max-width:800px;" class="img-responsive text-center"  src="/img/home/sync.png" alt="Sync Data">
                     <br>
                 </div>
 
@@ -342,7 +343,7 @@
                <div class="row">
 
 
-                <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="col-xs-12 col-sm-6 col-md-6">
                     <a href="https://www.compose.com/articles/interloop-making-the-most-of-compose/" target="_blank" class="news-card">
 <!--                       <img class="compose" src="/img/news/compose_logo.gif" alt="Compose - An IBM Company"> -->
                       <h4>Blog Title 1</h4>
@@ -350,29 +351,13 @@
                     </a>
                   </div>  
 
-                  <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="col-xs-12 col-sm-6 col-md-6">
                     <a href="http://www.businesswire.com/news/home/20161118005725/en/SCRA%E2%80%99s-SC-Launch-Program-Announces-Client-Companies" target="_blank" class="news-card">
 <!--                       <img class="bwire" src="img/news/business_wire_logo.png" alt="Business Wire"> -->
                     <h4>Blog Title 1</h4>
                       <p>Compose customer, Interloop, has launched a "sales execution and forecasting platform" — powered by IBM Watson® and Compose-hosted MongoDB — to help businesses understand where to focus ...</p>
                     </a>
                   </div>  
-
-                  <div class="col-xs-12 col-sm-6 col-md-4">
-                    <a href="http://3686south.com/" target="_blank" class="news-card">
-          <!--             <img src="img/news/3686.png" alt="36|86"> -->
-                      <h4>Blog Title 1</h4>
-                      <p>Compose customer, Interloop, has launched a "sales execution and forecasting platform" — powered by IBM Watson® and Compose-hosted MongoDB — to help businesses understand where to focus ...</p>
-                    </a>
-                  </div>  
-
-<!--                   <div class="col-xs-12 col-sm-6 col-md-4">
-                    <a href="https://www.charlotteagenda.com/47070/pitchbreakfast-april-2016/" target="_blank" class="news-card">
-                      <img class="ca" src="img/news/ca_logo.png" alt="Charlotte Agenda">
-                      <h4>Meet the 4 startups who gave their elevator speech at April’s PitchBreakfast</h4>
-                      <p>It’s the second Wednesday of the month. 8 a.m. There are few places I’d rather be at this hour than Packard Place for PitchBreakfast ... </p>
-                    </a>
-                  </div>   -->
 
                 </div>
 
@@ -579,9 +564,35 @@
     	window.onload = function() {
 			/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 			particlesJS.load('particles', 'particles.json', function() {
-			  console.log('callback - particles.js config loaded');
+			  // console.log('callback - particles.js config loaded');
 			});
 		};
+    </script>
+
+    <!-- //gets latest blogs -->
+    <script type="text/javascript" src="https://blog.interloop.ai/shared/ghost-url.min.js"></script>
+    <script>
+        ghost.init({
+            clientId: "ghost-frontend",
+            clientSecret: "4e727000d448"
+        });
+
+        function onSuccess(data) {
+            console.log('on success')
+          var $result = $('#blog-posts');
+          $.each(data.posts, function (i, post) {
+            $result.append(
+              '<li>' + post.title + '</li>'
+            );
+            console.log('posts',post)
+          });
+        }  
+
+        jQuery(document).ready(function () {
+          $.get(
+            ghost.url.api('posts', {limit: 3})
+          ).done(onSuccess);
+        });
     </script>
 
     <!-- jQuery -->
@@ -593,7 +604,9 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="/js/jquery.easing.min.js"></script>
     <script src="/js/scrolling-nav.js"></script>
-  
+
+    <!-- sumo me -->
+    <script src="//load.sumome.com/" data-sumo-site-id="8a0d04db7ee874a1fbe29dec7eda9805f1d75723b5e75170188dd82f95f3e9a0" async="async"></script>  
 
         
     </body>
