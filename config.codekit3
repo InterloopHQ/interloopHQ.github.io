@@ -5672,26 +5672,6 @@
 		"oAP": "\/_site\/contact\/thanks.html",
 		"oF": 0
 		},
-	"\/_site\/css\/website-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/css\/website-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/_site\/css\/website.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/css\/website-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/_site\/favicon.ico": {
 		"ft": 8192,
 		"oA": 2,
@@ -6466,12 +6446,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/product\/index.html",
-		"oF": 0
-		},
-	"\/_site\/product\/pipeline-management.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/product\/pipeline-management.html",
 		"oF": 0
 		},
 	"\/_site\/README.md": {
@@ -14021,12 +13995,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/product\/index.html",
-		"oF": 0
-		},
-	"\/product\/pipeline-management.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/product\/pipeline-management.html",
 		"oF": 0
 		},
 	"\/README.md": {
