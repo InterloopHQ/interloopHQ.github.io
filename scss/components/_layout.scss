@@ -10,14 +10,15 @@ html {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fff;
+    border-color: #fff !important;
 }
 
 
 @media(max-width:400px) {
     .navbar {
-        background-color:#123;
-        padding:0 10px;
+        background-color:#123 !important;
+        padding:0px;
+        padding-left:10px;
     }
 
     .intro-section.large {
@@ -25,7 +26,7 @@ html {
     }
 
     &.nav-scrolled {
-        padding-top:10px;
+        padding-top:0px;
     }
 
 }
