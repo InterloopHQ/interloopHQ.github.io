@@ -29,6 +29,10 @@ html {
         padding-top:0px;
     }
 
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: $sapphire !important;
+    }
+
 }
 
 @media(min-width:767px) {
