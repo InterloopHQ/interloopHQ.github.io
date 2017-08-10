@@ -9,6 +9,24 @@
 	],
 "creatorBuild": "25849",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/.well-known\/acme-challenge\/d9wwx5sGThRXMkc8dd2B4mOfH0LggnxwVtifolaif9Y": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.well-known\/acme-challenge\/d9wwx5sGThRXMkc8dd2B4mOfH0LggnxwVtifolaif9Y",
+		"oF": 0
+		},
+	"\/.well-known\/acme-challenge\/RE8Re2D6zMrWlk9Mly6VFQDpizMHoRnurYy3heW_Y9g": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.well-known\/acme-challenge\/RE8Re2D6zMrWlk9Mly6VFQDpizMHoRnurYy3heW_Y9g",
+		"oF": 0
+		},
 	"\/_config.yml": {
 		"ft": 8192,
 		"oA": 1,
@@ -116,6 +134,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/press.html",
+		"oF": 0
+		},
+	"\/_site\/.well-known\/acme-challenge\/d9wwx5sGThRXMkc8dd2B4mOfH0LggnxwVtifolaif9Y": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/.well-known\/acme-challenge\/d9wwx5sGThRXMkc8dd2B4mOfH0LggnxwVtifolaif9Y",
+		"oF": 0
+		},
+	"\/_site\/.well-known\/acme-challenge\/RE8Re2D6zMrWlk9Mly6VFQDpizMHoRnurYy3heW_Y9g": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/.well-known\/acme-challenge\/RE8Re2D6zMrWlk9Mly6VFQDpizMHoRnurYy3heW_Y9g",
 		"oF": 0
 		},
 	"\/_site\/blog\/index.html": {
@@ -5588,6 +5618,12 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/_site\/CNAME": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/CNAME",
+		"oF": 0
+		},
 	"\/_site\/company\/careers\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -5635,16 +5671,6 @@
 		"oA": 2,
 		"oAP": "\/_site\/contact\/thanks.html",
 		"oF": 0
-		},
-	"\/_site\/css\/website-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/css\/website-min-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"\/_site\/css\/website.css": {
 		"aP": 1,
@@ -5781,11 +5807,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/img\/about\/IBM_Watson.png": {
+	"\/_site\/img\/about\/ibm_watson.png": {
 		"ft": 32768,
 		"iS": 8833,
 		"oA": 0,
-		"oAP": "\/_site\/img\/about\/IBM_Watson.png",
+		"oAP": "\/_site\/img\/about\/ibm_watson.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -5907,6 +5933,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/_site\/img\/coffee-grey-big.jpg": {
+		"ft": 16384,
+		"iS": 6151121,
+		"oA": 0,
+		"oAP": "\/_site\/img\/coffee-grey-big.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_site\/img\/coffee-grey.jpg": {
 		"ft": 16384,
 		"iS": 6151121,
@@ -5986,6 +6022,17 @@
 		"iS": 123171,
 		"oA": 0,
 		"oAP": "\/_site\/img\/home\/risk.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/img\/home\/sync.png": {
+		"ft": 32768,
+		"iS": 93054,
+		"oA": 0,
+		"oAP": "\/_site\/img\/home\/sync.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -13048,6 +13095,12 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/CNAME": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CNAME",
+		"oF": 0
+		},
 	"\/company\/_about.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -13283,11 +13336,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/about\/IBM_Watson.png": {
+	"\/img\/about\/ibm_watson.png": {
 		"ft": 32768,
 		"iS": 8833,
 		"oA": 0,
-		"oAP": "\/img\/about\/IBM_Watson.png",
+		"oAP": "\/img\/about\/ibm_watson.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -13409,6 +13462,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/coffee-grey-big.jpg": {
+		"ft": 16384,
+		"iS": 6151121,
+		"oA": 0,
+		"oAP": "\/img\/coffee-grey-big.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/coffee-grey.jpg": {
 		"ft": 16384,
 		"iS": 6151121,
@@ -13488,6 +13551,17 @@
 		"iS": 123171,
 		"oA": 0,
 		"oAP": "\/img\/home\/risk.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/home\/sync.png": {
+		"ft": 32768,
+		"iS": 93054,
+		"oA": 0,
+		"oAP": "\/img\/home\/sync.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -14235,7 +14309,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 521649651,
-	"displayValue": "site_v4",
+	"displayValue": "interloopHQ.github.io",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-dunnoGirl"
 	},
