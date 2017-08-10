@@ -9,6 +9,23 @@ html {
     height: 100%;
 }
 
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+
+@media(max-width:400px) {
+    .navbar {
+        background-color:#123;
+        padding:0 10px;
+    }
+
+    &.nav-scrolled {
+        padding-top:10px;
+    }
+
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 10px 15px;
