@@ -1,0 +1,53 @@
+.press-block {
+    max-width: 100%;
+    background-color:$limestone;
+
+    &.w-padding-top {
+    	padding-top:50px;
+    }
+    
+    .press-details {
+    	max-width:1200px;
+    	margin: 0 auto;
+
+    	.row {
+    		margin-bottom:15px;
+    	}
+    }
+ }
+
+.year-divider {
+	color:$charcoal;
+	text-align: center;
+}
+
+.press-card	{
+	display: block;
+	border-radius: 3px;
+	background-color:$diamond;
+	padding:20px;
+	color:$slate !important;
+	text-decoration: none;
+	height:auto;
+	width:100%;
+	overflow: hidden;
+	margin-bottom:15px;
+	min-height:320px;
+
+	a {
+		text-decoration: none;
+	}
+}
+
+.press-date {
+	height:320px;
+	margin-bottom:15px;
+	display: inline-block;
+	float: right;
+}	
+
+  @media only screen and (min-width : 768px) {
+  	.year-divider {
+  		text-align: left;
+  	}
+ }

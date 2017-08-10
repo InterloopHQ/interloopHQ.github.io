@@ -1,0 +1,66 @@
+
+.navbar-brand {
+	padding:0px;
+	padding-left:0px;
+}
+
+.navbar-brand .logo {
+	font-size: 20px;
+    font-weight: 500;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0;
+    width:180px;
+    height:45px;
+    background: url(https://res.cloudinary.com/dsi8lfsza/image/upload/v1474917299/interloop_euksgd.png) center / contain no-repeat;
+}
+
+// .navbar.nav-scrolled .navbar-brand .logo {
+// 	background: url(https://res.cloudinary.com/dsi8lfsza/image/upload/v1474917309/interloop-dark_mbmu3t.png) center / contain no-repeat;
+// }
+
+.navbar-wrap {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.navbar.nav-scrolled {
+	background-color:#123;
+	color:#fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff !important;
+}
+
+// .navbar-default.nav-scrolled .navbar-nav > li > a {
+//     color: $sapphire !important;
+// }
+
+.navbar-default {
+	transition: all ease-in-out .15s;
+	-webkit-transition: all ease-in-out .15s;
+	background-color:transparent;
+	border:solid 1px transparent;
+	color:#fff;
+
+    .btn {
+		color:#fff !important;
+		padding:8px 12px !important;
+		margin-top:6px;
+
+		&.btn-primary {
+			background-color:darken($topaz, 12%);
+			border-color:darken($topaz, 12%);
+
+			&:hover {
+				background-color: darken($topaz, 12%) !important;
+			}
+		}
+	}
+
+	li.login-item {
+		margin-left:20px;
+		margin-right:15px;
+	}
+}

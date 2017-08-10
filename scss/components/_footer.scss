@@ -1,0 +1,119 @@
+
+/* ======= Footer ======= */
+.footer {
+    background: #192D40;
+    color: rgba(256, 256, 256, 0.7);
+    padding-top: 45px;
+    padding-bottom: 45px;
+    a {
+        color: rgba(256, 256, 256, 0.7);
+    }
+    .divider {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid rgba(256, 256, 256, 0.1);
+    }
+    
+    .social-media {
+        margin-bottom: 15px;
+        li {
+            a {
+                display: inline-block;
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 32px;
+                color:#fff;
+                background: rgba(0, 0, 0, 0.1);
+                padding-top: 0px;
+                
+                &:hover {
+                    background: rgba(0, 0, 0, 0.2);
+                    color: #fff;
+                }
+            }
+            .fa {
+                font-size: 16px;
+            }
+        }
+    }
+    .copyright {
+        color: rgba(256, 256, 256, 0.4);
+        font-size: 15px;
+        a {
+            color: rgba(256, 256, 256, 0.4);
+        }
+    }
+
+    .label.label-new {
+    	background-color:$topaz;
+	    display: inline;
+	    font-size: 75%;
+	    font-weight: 600;
+	    line-height: 1;
+	    color: rgb(255, 255, 255);
+	    text-align: center;
+	    white-space: nowrap;
+	    vertical-align: baseline;
+	    padding: 0.2em 0.6em 0.3em;
+	    border-radius: 0.25em;
+    }
+
+    .made-in-charleston {
+    	display: block;
+    	max-width:164px;
+    	height:auto;
+    	opacity: .95;
+
+    	&:hover {
+    		opacity: 1;
+    	}
+    }
+
+    .address {
+    	color:#fff;
+    	padding-left:5px;
+    }
+}
+
+.footer-col {
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            color:#fff;
+        }
+    }
+
+    .footer-image {
+        margin-bottom:15px;
+    }
+
+    .footer-link {
+        color:#fff;
+    }
+
+    p {
+        margin-bottom:0px;
+        font-size: 15px;
+    }
+
+    .col-title {
+        font-size: 15px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight:700;
+    }
+    .footer-menu {
+        li {
+           font-size: 15px; 
+           margin-bottom: 5px;
+        }
+        
+    }
+    .label-new {
+        margin-left: 5px;
+    }
+}

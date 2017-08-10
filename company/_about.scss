@@ -1,0 +1,22 @@
+.about-header {
+	.divider-line {
+		margin-top:15px;
+		margin:auto;
+	}
+	h2 {
+		color:$topaz;
+		font-size:54px;
+		font-weight:900;
+	}
+
+	p {
+		margin-bottom:20px;
+	}
+}
+
+.values {
+	background-color:#fff;
+	border-radius: 5px;
+	padding:25px 15px;
+	display: block;
+}

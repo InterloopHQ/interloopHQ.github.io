@@ -1,0 +1,36 @@
+.banner {
+	padding:60px;
+	padding-bottom:80px;
+	background-color:$topaz;
+	width:100%;
+	text-align: center;
+	color:#fff;
+
+	h2 {
+		color:#fff;
+	}
+
+	p {
+		color:#fff;
+		opacity: .85;
+	}
+
+	.btn {
+		border:solid 3px rgba(255,255,255,.5);
+		color:#fff;
+		background: transparent;
+		border-radius: 32px;
+		opacity: .85;
+		text-transform: uppercase;
+		padding:12px 48px;
+		margin-top:15px;
+		font-size:14px;
+		letter-spacing: 1px;
+		font-weight:600;
+
+		&:hover {
+			opacity: 1;
+			border:solid 3px #fff;
+		}
+	}
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="196px" height="136px" viewBox="0 0 196 136" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="38.4938236" y="38.5988064" width="5.22426471" height="1.31736527" rx="0.108000004"></rect>
+        <rect id="path-2" x="132.28559" y="0.296407688" width="7.17705885" height="1.31736527" rx="0.108000004"></rect>
+        <rect id="path-3" x="32.7435312" y="107.095207" width="13.1147064" height="1.9760479" rx="0.36"></rect>
+        <rect id="path-4" x="125.958826" y="107.365269" width="16.9338235" height="2.63473054" rx="0.36"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-52.000000, -32.000000)">
+            <g id="Group-3" transform="translate(52.000000, 32.000000)">
+                <g id="Group-2">
+                    <g id="Group">
+                        <g id="Rectangle">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#FFFFFF" stroke-width="0.72" x="38.8538236" y="38.9588064" width="4.50426471" height="1" rx="0.108000004"></rect>
+                        </g>
+                        <g id="Rectangle">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <rect stroke="#FFFFFF" stroke-width="0.72" x="132.64559" y="0.656407688" width="6.45705885" height="1" rx="0.108000004"></rect>
+                        </g>
+                        <path d="M4.32352941,99.1175854 C4.32352941,99.1175854 40.0844037,83.7226352 93.6316958,77.9667813 C108.45774,76.3731145 122.05803,75.0268775 135.140982,75.0268775 C168.573365,75.0268775 191.641646,76.8636899 191.641646,76.8636899" id="Line" stroke="#FFFFFF" stroke-width="5.76" stroke-linecap="square"></path>
+                        <path d="M42.5147059,40.1796407 L49.3602941,83.3233533" id="Line" stroke="#FFFFFF" stroke-width="2.88" stroke-linecap="square"></path>
+                        <path d="M28.8235294,87.6047904 L39.6323529,40.1796407" id="Line" stroke="#FFFFFF" stroke-width="2.88" stroke-linecap="square"></path>
+                        <path d="M44.6764706,107.365269 L49,85.6287425" id="Line" stroke="#FFFFFF" stroke-width="2.952" stroke-linecap="square"></path>
+                        <path d="M127.544118,107.365269 L118.897059,75.748503" id="Line" stroke="#FFFFFF" stroke-width="4.32" stroke-linecap="square"></path>
+                        <path d="M134.029412,2.63473054 L118.897059,75.748503" id="Line" stroke="#FFFFFF" stroke-width="4.32" stroke-linecap="square"></path>
+                        <path d="M137.632353,2.63473054 L148.801471,74.1017964" id="Line" stroke="#FFFFFF" stroke-width="4.32" stroke-linecap="square"></path>
+                        <path d="M141.235294,107.365269 L148.801471,74.1017964" id="Line" stroke="#FFFFFF" stroke-width="4.32" stroke-linecap="square"></path>
+                        <path d="M29.5441176,90.8982036 L33.8676471,107.365269" id="Line" stroke="#FFFFFF" stroke-width="2.88" stroke-linecap="square"></path>
+                        <g id="Rectangle-3">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <rect stroke="#FFFFFF" stroke-width="0.72" x="33.1035312" y="107.455207" width="12.3947064" height="1.2560479" rx="0.36"></rect>
+                        </g>
+                        <g id="Rectangle-4">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            <rect stroke="#FFFFFF" stroke-width="0.72" x="126.318826" y="107.725269" width="16.2138235" height="1.91473054" rx="0.36"></rect>
+                        </g>
+                        <polygon id="Triangle" fill-opacity="0.25" fill="#FFFFFF" points="37.2642486 39.607486 25.9426571 87.2732605 13.7180039 91.2662895 0.15803479 96.1801642"></polygon>
+                        <path d="M44.9683046,39.129807 L87.3842777,74.2323308 C87.3842777,74.2323308 74.4290037,76.1504998 68.2101705,77.1061525 C61.9913372,78.0618053 51.9141593,80.4189706 51.9141593,80.4189706 L44.9683046,39.129807 Z" id="Triangle" fill-opacity="0.25" fill="#FFFFFF"></path>
+                        <path d="M130.769442,0.798889839 L114.910103,71.1879226 C114.910103,71.1879226 99.1747156,72.2201295 92.9558824,73.1757823 C86.7370491,74.131435 71.4120772,76.4590391 71.4120772,76.4590391 L130.769442,0.798889839 Z" id="Triangle" fill-opacity="0.25" fill="#FFFFFF"></path>
+                        <polygon id="Triangle" fill-opacity="0.25" fill="#FFFFFF" points="141.237098 0.811141701 195.509852 72.8311314 171.066014 71.2528712 152.777541 70.6818587"></polygon>
+                    </g>
+                </g>
+                <text id="MADE-IN-CHARLESTON," font-family="ProximaNova-Semibold, Proxima Nova" font-size="13" font-weight="500" letter-spacing="1.08333337" fill="#FFFFFF">
+                    <tspan x="5" y="134">MADE IN CHARLESTON, SC</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

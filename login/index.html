@@ -1,0 +1,53 @@
+---
+layout: login
+---
+
+ <div class="login">
+      
+
+        <div class="login-wrapper">
+
+
+          <div class="login-form panel panel-default panel-light">
+            <div class="panel-heading" style="border-bottom:none; padding-bottom:0px;">
+                <img src="https://res.cloudinary.com/dsi8lfsza/image/upload/v1474917309/interloop-dark_mbmu3t.png" alt="Interloop">
+                <p class="text-center" style="margin-bottom:0px; margin-top:25px; font-size:16px;">Help us find your login page! <br class="hidden-xs"> Enter your site address and we'll take you to your login page.</p>
+            </div>
+            <div class="panel-body">
+
+                <form name="loginForm" class="login-form" onsubmit="location.href='https://' + document.getElementById('login-redirect').value +  '.interloop.ai'; return false;"">
+
+
+                  <div class="form-group">
+                    <div class="input-group">
+                        <input id="login-redirect" type="text" class="form-control" id="submdoain" placeholder="domain" required>
+                        <div class="input-group-addon">.interloop.ai</div>
+                    </div>
+                  </div>
+
+
+                  <button style="margin-top:10px" class="submit btn btn-lg btn-primary btn-block" type="submit">Continue
+                  </button>
+                </form>
+
+
+            </div>
+<!--             <div class="panel-footer">
+                <div class="seperator">
+                    Or
+                </div>
+            </div> -->
+          </div>
+
+          <p class="copyright text-center">&copy; Interloop Technologies, Inc All rights reserved.</p>
+
+
+<!--           <p class="text-center"><a ui-sref="forgot" class="forgot-password">Forgot your password?</a></p> -->
+        </div>
+
+
+        <div class="version-viewer">
+          <p><span ng-bind="data.version"></span></p>
+        </div>
+
+    </div>

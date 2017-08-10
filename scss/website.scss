@@ -1,0 +1,40 @@
+//Main SCSS FILE
+
+
+//color themes
+@import "colors";
+
+//variable to be used across application
+@import "variables";
+
+//custom bootstrap theme
+@import "bootstrap-theme";
+
+//bootstrap scss library
+@import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+//bootstrap overrides
+// @import "bootstrap-overrides/bootstrap-overrides";
+
+//additional components
+@import "components/components";
+
+//third party libs with overrides
+@import "lib-overrides/lib-overrides";
+
+//TODO - Figure Out Best Icons
+@import "icons";
+
+//utilities
+@import "utilities";
+
+
+//individual pages
+@import "../home";
+@import "../product/product";
+@import "../company/about";
+@import "../company/news/news";
+@import "../company/careers/career";
+@import "../company/press/press";
+
+@import "../integrations/integrations";
