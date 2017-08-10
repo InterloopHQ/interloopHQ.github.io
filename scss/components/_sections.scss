@@ -205,23 +205,23 @@ svg.promo-svg {
     position:relative;
 
     &.large {
-        height:650px;
+        min-height:650px;
         padding-top:240px;
     }
 
     &.sm {
-        height:215px;
+        min-height:215px;
         padding-top:96px;
     }
 
     &.md {
-        height:320px;
+        min-height:320px;
         padding-top:120px;
     }
 
     &.schedule-demo {
         padding-top:96px;
-        height:800px;
+        min-height:800px;
     }
 
     h1 {
