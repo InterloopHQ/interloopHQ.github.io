@@ -5672,6 +5672,16 @@
 		"oAP": "\/_site\/contact\/thanks.html",
 		"oF": 0
 		},
+	"\/_site\/css\/website.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/css\/website-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/_site\/favicon.ico": {
 		"ft": 8192,
 		"oA": 2,
@@ -13331,14 +13341,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/about\/qcfintech.jpg": {
-		"ft": 16384,
-		"iS": 97922,
+	"\/img\/about\/qc-fintech.png": {
+		"ft": 32768,
+		"iS": 38399,
 		"oA": 0,
-		"oAP": "\/img\/about\/qcfintech.jpg",
+		"oAP": "\/img\/about\/qc-fintech.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/about\/the_harbor.png": {
