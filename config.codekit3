@@ -94,6 +94,12 @@
 		"oAP": "\/_includes\/nav.html",
 		"oF": 0
 		},
+	"\/_includes\/news-banner.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/news-banner.html",
+		"oF": 0
+		},
 	"\/_includes\/newsletter.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -5672,13 +5678,67 @@
 		"oAP": "\/_site\/contact\/thanks.html",
 		"oF": 0
 		},
-	"\/_site\/css\/website.css": {
+	"\/_site\/developer\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/developer\/index.html",
+		"oF": 0
+		},
+	"\/_site\/developer\/javascripts\/spectacle.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/developer\/javascripts\/spectacle-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/developer\/javascripts\/spectacle.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/developer\/javascripts\/spectacle.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/developer\/stylesheets\/foundation.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/_site\/css\/website-min.css",
+		"oAP": "\/_site\/developer\/stylesheets\/foundation-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/developer\/stylesheets\/foundation.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/developer\/stylesheets\/foundation.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/developer\/stylesheets\/spectacle.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/developer\/stylesheets\/spectacle-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/developer\/stylesheets\/spectacle.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/developer\/stylesheets\/spectacle.min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -5818,14 +5878,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/img\/about\/qcfintech.jpg": {
-		"ft": 16384,
-		"iS": 97922,
+	"\/_site\/img\/about\/qc-fintech.png": {
+		"ft": 32768,
+		"iS": 38399,
 		"oA": 0,
-		"oAP": "\/_site\/img\/about\/qcfintech.jpg",
+		"oAP": "\/_site\/img\/about\/qc-fintech.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_site\/img\/about\/the_harbor.png": {
@@ -5945,7 +6006,7 @@
 		},
 	"\/_site\/img\/coffee-grey.jpg": {
 		"ft": 16384,
-		"iS": 6151121,
+		"iS": 1302636,
 		"oA": 0,
 		"oAP": "\/_site\/img\/coffee-grey.jpg",
 		"oF": 0,
@@ -6164,8 +6225,8 @@
 		"oA": 0,
 		"oAP": "\/_site\/img\/integrations\/quickbooks_logo.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -13205,6 +13266,70 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/developer\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/developer\/index.html",
+		"oF": 0
+		},
+	"\/developer\/javascripts\/spectacle.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/developer\/javascripts\/spectacle-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/developer\/javascripts\/spectacle.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/developer\/javascripts\/spectacle.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/developer\/stylesheets\/foundation.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/developer\/stylesheets\/foundation-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/developer\/stylesheets\/foundation.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/developer\/stylesheets\/foundation.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/developer\/stylesheets\/spectacle.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/developer\/stylesheets\/spectacle-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/developer\/stylesheets\/spectacle.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/developer\/stylesheets\/spectacle.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/favicon.ico": {
 		"ft": 8192,
 		"oA": 2,
@@ -14203,6 +14328,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/components\/_nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/components\/_news-banner.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/components\/_news-banner.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

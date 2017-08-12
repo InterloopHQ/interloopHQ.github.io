@@ -5880,7 +5880,8 @@ html {
   color: #fff; }
 
 .navbar-default .navbar-nav > li > a {
-  color: #fff !important; }
+  color: #fff !important;
+  font-weight: 700; }
 
 .navbar-default {
   transition: all ease-in-out .15s;
@@ -6177,6 +6178,28 @@ section.grey > svg {
 
 .footer-col .label-new {
   margin-left: 5px; }
+
+.news-banner {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #00B48E;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+  z-index: 100;
+  font-size: 15px; }
+  .news-banner a {
+    color: #fff;
+    opacity: .85; }
+    .news-banner a:hover {
+      opacity: 1; }
+
+body.has-news-banner {
+  margin-top: 50px; }
+  body.has-news-banner .navbar {
+    margin-top: 50px; }
 
 .news-articles-block {
   max-width: 100%; }
