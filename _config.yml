@@ -9,9 +9,9 @@
 
 url: https://interloop.ai
 enforce_ssl: interloop.ai
-title: Interloop | Sales Execution & Forecasting Platform
+title: Interloop | Sales Forecasting & Intelligence Platform
 email: hi@interloop.ai
-description: "Sales Execution & Forecasting Platform"
+description: "Sales Forecasting & Intelligence Platform"
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: interloophq
 github_username:  interloophq
@@ -19,9 +19,10 @@ github_username:  interloophq
 # Build settings
 markdown: kramdown
 
-gems:
-  - octopress-autoprefixer
-  - jekyll-sitemap
+gems: [
+    'jekyll-sitemap',
+    'octopress-autoprefixer'
+]
 
 
 include: [

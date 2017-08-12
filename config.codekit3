@@ -6564,6 +6564,12 @@
 		"oAP": "\/_site\/resources\/index.html",
 		"oF": 0
 		},
+	"\/_site\/robots.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/robots.txt",
+		"oF": 0
+		},
 	"\/_site\/schedule-demo\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -6582,6 +6588,12 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/_site\/sitemap.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/sitemap.xml",
+		"oF": 0
 		},
 	"\/_site\/solutions\/index.html": {
 		"ft": 8192,
