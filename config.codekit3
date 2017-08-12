@@ -5678,6 +5678,16 @@
 		"oAP": "\/_site\/contact\/thanks.html",
 		"oF": 0
 		},
+	"\/_site\/css\/website.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/css\/website-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/_site\/developer\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -6323,6 +6333,17 @@
 		"oAP": "\/_site\/img\/news\/compose_logo.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/_site\/img\/news\/ibm_logo.png": {
+		"ft": 32768,
+		"iS": 16304,
+		"oA": 0,
+		"oAP": "\/_site\/img\/news\/ibm_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/img\/news\/qc_logo.png": {
 		"ft": 32768,
@@ -13911,6 +13932,17 @@
 		"oAP": "\/img\/news\/compose_logo.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/img\/news\/ibm_logo.png": {
+		"ft": 32768,
+		"iS": 16304,
+		"oA": 0,
+		"oAP": "\/img\/news\/ibm_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/news\/qc_logo.png": {
 		"ft": 32768,
