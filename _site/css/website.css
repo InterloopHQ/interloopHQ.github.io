@@ -6184,6 +6184,12 @@ body.has-news-banner {
   body.has-news-banner .navbar {
     margin-top: 50px; }
 
+@media (max-width: 400px) {
+  body.has-news-banner {
+    margin-top: 70px; }
+    body.has-news-banner .navbar {
+      margin-top: 70px; } }
+
 .news-articles-block {
   max-width: 100%; }
   .news-articles-block .news-details {

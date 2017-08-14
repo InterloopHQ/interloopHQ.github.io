@@ -27,3 +27,15 @@ body.has-news-banner {
 		margin-top:50px;
 	}
 }
+
+
+@media(max-width:400px) {
+    body.has-news-banner {
+		margin-top:70px;
+
+		.navbar {
+			margin-top:70px;
+		}
+	}
+
+}
