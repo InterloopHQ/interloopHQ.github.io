@@ -7349,6 +7349,9 @@ section.blog .divider-line {
         width: 128px; }
       .news-articles-block .news-card img.compose {
         width: 92px; }
+      .news-articles-block .news-card img.ibm {
+        margin-bottom: 40px;
+        width: 96px; }
       .news-articles-block .news-card img.startup-factory {
         width: 76px;
         margin-bottom: 40px; }
