@@ -7337,7 +7337,8 @@ section.blog .divider-line {
       .news-articles-block .news-card img.compose {
         width: 92px; }
       .news-articles-block .news-card img.ibm {
-        margin-bottom: 40px; }
+        margin-bottom: 40px;
+        width: 96px; }
       .news-articles-block .news-card img.startup-factory {
         width: 76px;
         margin-bottom: 40px; }
@@ -7345,6 +7346,9 @@ section.blog .divider-line {
         width: 50px; }
       .news-articles-block .news-card img.wt {
         width: 110px; }
+      .news-articles-block .news-card img.techco {
+        width: 100px;
+        margin-top: 10px; }
 
 .jobs-block {
   padding-top: 90px;

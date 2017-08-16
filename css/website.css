@@ -7359,6 +7359,9 @@ section.blog .divider-line {
         width: 50px; }
       .news-articles-block .news-card img.wt {
         width: 110px; }
+      .news-articles-block .news-card img.techco {
+        width: 100px;
+        margin-top: 10px; }
 
 .jobs-block {
   padding-top: 90px;
