@@ -186,13 +186,21 @@
 
           <div class="row">
 
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <a href="http://digsouth.com/2017/09/12/from-tech-to-food-bev-these-are-the-newest-startups-accelerating-in-charleston" target="_blank" class="news-card">
+              <img class="digsouth" src="/img/news/digsouth.svg" alt="Dig South">
+              <h4>From Tech to Food & Bev, These Are the Newest Startups Accelerating in Charleston</h4>
+              <p>The Harbor Accelerator Program is fostering the newest scalable startups in Charleston, South Carolina this fall. Now in its third year, the 14-week accelerator connects Southeastern startups ...</p>
+            </a>
+          </div>  
           
 
           <div class="col-xs-12 col-sm-6 col-md-3">
             <a href="https://tech.co/harbor-cohort-accelerator-charleston-2017-08" target="_blank" class="news-card">
               <img class="" src="/img/news/techco_logo.png" alt="Tech.co">
               <h4>The Harbor Announces CoHort 8 Accelerator in Charleston!</h4>
-              <p>This week Charleston’s nonprofit accelerator announced the latest startups to join their 14-week program. Dubbed CoHort 8, eight new startups from the Charleston area will gain mentorship, weekly courses, a free workspace, and various additional resources to support and fuel their growth ...</p>
+              <p>This week Charleston’s nonprofit accelerator announced the latest startups to join their 14-week program. Dubbed CoHort 8, eight new startups from the Charleston area will gain mentorship, weekly courses, a free workspace, and various ...</p>
             </a>
           </div>  
 
@@ -200,7 +208,7 @@
             <a href="http://www.harborec.com/blog/2017/8/15/meet-the-cohort-8-participants" target="_blank" class="news-card">
               <img class="harbor" src="/img/news/harbor_logo.png" alt="The Harbor">
               <h4>Meet the CoHort 8 participants!</h4>
-              <p>The Harbor Entrepreneur Center, a nonprofit organization dedicated to growing entrepreneurship and scalable companies in Charleston, has selected eight startup businesses to participate in CoHort 8 of its startup accelerator program.  ...</p>
+              <p>The Harbor Entrepreneur Center, a nonprofit organization dedicated to growing entrepreneurship and scalable companies in Charleston, has selected eight startup businesses to participate ...</p>
             </a>
           </div>  
 
@@ -217,7 +225,7 @@
             <a href="https://www.compose.com/articles/interloop-making-the-most-of-compose/" target="_blank" class="news-card">
               <img class="compose" src="/img/news/compose_logo.gif" alt="Compose - An IBM Company">
               <h4>Interloop - Making the Most of Compose</h4>
-              <p>Compose customer, Interloop, has launched a "sales execution and forecasting platform" — powered by IBM Watson® and Compose-hosted MongoDB — to help businesses understand where to focus ...</p>
+              <p>Compose customer, Interloop, has launched a "sales execution and forecasting platform" — powered by IBM Watson® and Compose-hosted MongoDB — to help businesses ...</p>
             </a>
           </div>  
 
@@ -395,29 +403,29 @@
 
     <!-- //gets latest blogs -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="http://blog.interloop.ai/public/ghost-sdk.min.js"></script>
+    <!-- <script type="text/javascript" src="http://blog.interloop.ai/public/ghost-sdk.min.js"></script> -->
     <script>
-        ghost.init({
-            clientId: "ghost-frontend",
-            clientSecret: "4e727000d448"
-        });
+        // ghost.init({
+        //     clientId: "ghost-frontend",
+        //     clientSecret: "4e727000d448"
+        // });
 
-        function onSuccess(data) {
-            console.log('on success')
-          var $result = $('#blog-posts');
-          $.each(data.posts, function (i, post) {
-            $result.append(
-              '<li>' + post.title + '</li>'
-            );
-            console.log('posts',post)
-          });
-        }  
+        // function onSuccess(data) {
+        //     console.log('on success')
+        //   var $result = $('#blog-posts');
+        //   $.each(data.posts, function (i, post) {
+        //     $result.append(
+        //       '<li>' + post.title + '</li>'
+        //     );
+        //     console.log('posts',post)
+        //   });
+        // }  
 
-        jQuery(document).ready(function () {
-          $.get(
-            ghost.url.api('posts', {limit: 3})
-          ).done(onSuccess);
-        });
+        // jQuery(document).ready(function () {
+        //   $.get(
+        //     ghost.url.api('posts', {limit: 3})
+        //   ).done(onSuccess);
+        // });
     </script>
 
     <!-- jQuery -->

@@ -402,6 +402,15 @@
                <div class="row">
 
                 <div class="col-xs-12 col-sm-6 col-md-4">
+                  <a href="http://digsouth.com/2017/09/12/from-tech-to-food-bev-these-are-the-newest-startups-accelerating-in-charleston" target="_blank" class="news-card">
+                    <img class="" src="/img/news/digsouth.svg" alt="Dig South">
+                    <h4>From Tech to Food & Bev, These Are the Newest Startups Accelerating in Charleston</h4>
+                    <p>The Harbor Accelerator Program is fostering the newest scalable startups in Charleston, South Carolina this fall. Now in its third year, the 14-week accelerator connects Southeastern startups to mentorship, weekly classes, free co-working space, investor introductions and pitch opportunities. ...</p>
+                  </a>
+                </div>  
+          
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
                   <a href="https://tech.co/harbor-cohort-accelerator-charleston-2017-08" target="_blank" class="news-card">
                     <img class="techco" src="/img/news/techco_logo.png" alt="Tech.co">
                     <h4>The Harbor Announces CoHort 8 Accelerator in Charleston!</h4>
@@ -417,13 +426,13 @@
                   </a>
                 </div> 
 
-                <div class="col-xs-12 col-sm-6 col-md-4">
+<!--                 <div class="col-xs-12 col-sm-6 col-md-4">
                   <a href="http://ecc.ibm.com/case-study/us-en/ECCF-KUC12475USEN" target="_blank" class="news-card">
                     <img class="ibm" src="/img/news/ibm_logo.png" alt="IBM">
                     <h4>Helping sellers close more deals faster</h4>
                     <p>If you sell business-to-business (B2B), you know how hard it can be to win over multiple buyers, manage long sales cycles, and accurately predict results. Interloop is helping sellers master ...</p>
                   </a>
-                </div>  
+                </div> -->  
 
 <!-- 
                 <div class="col-xs-12 col-sm-6 col-md-4">
@@ -593,29 +602,29 @@
 
     <!-- //gets latest blogs -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="http://blog.interloop.ai/public/ghost-sdk.min.js"></script>
+    <!-- <script type="text/javascript" src="http://blog.interloop.ai/public/ghost-sdk.min.js"></script> -->
     <script>
-        ghost.init({
-            clientId: "ghost-frontend",
-            clientSecret: "4e727000d448"
-        });
+        // ghost.init({
+        //     clientId: "ghost-frontend",
+        //     clientSecret: "4e727000d448"
+        // });
 
-        function onSuccess(data) {
-            console.log('on success')
-          var $result = $('#blog-posts');
-          $.each(data.posts, function (i, post) {
-            $result.append(
-              '<li>' + post.title + '</li>'
-            );
-            console.log('posts',post)
-          });
-        }  
+        // function onSuccess(data) {
+        //     console.log('on success')
+        //   var $result = $('#blog-posts');
+        //   $.each(data.posts, function (i, post) {
+        //     $result.append(
+        //       '<li>' + post.title + '</li>'
+        //     );
+        //     console.log('posts',post)
+        //   });
+        // }  
 
-        jQuery(document).ready(function () {
-          $.get(
-            ghost.url.api('posts', {limit: 3})
-          ).done(onSuccess);
-        });
+        // jQuery(document).ready(function () {
+        //   $.get(
+        //     ghost.url.api('posts', {limit: 3})
+        //   ).done(onSuccess);
+        // });
     </script>
 
     <!-- jQuery -->

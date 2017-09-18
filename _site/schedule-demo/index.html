@@ -339,29 +339,29 @@
 
     <!-- //gets latest blogs -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="http://blog.interloop.ai/public/ghost-sdk.min.js"></script>
+    <!-- <script type="text/javascript" src="http://blog.interloop.ai/public/ghost-sdk.min.js"></script> -->
     <script>
-        ghost.init({
-            clientId: "ghost-frontend",
-            clientSecret: "4e727000d448"
-        });
+        // ghost.init({
+        //     clientId: "ghost-frontend",
+        //     clientSecret: "4e727000d448"
+        // });
 
-        function onSuccess(data) {
-            console.log('on success')
-          var $result = $('#blog-posts');
-          $.each(data.posts, function (i, post) {
-            $result.append(
-              '<li>' + post.title + '</li>'
-            );
-            console.log('posts',post)
-          });
-        }  
+        // function onSuccess(data) {
+        //     console.log('on success')
+        //   var $result = $('#blog-posts');
+        //   $.each(data.posts, function (i, post) {
+        //     $result.append(
+        //       '<li>' + post.title + '</li>'
+        //     );
+        //     console.log('posts',post)
+        //   });
+        // }  
 
-        jQuery(document).ready(function () {
-          $.get(
-            ghost.url.api('posts', {limit: 3})
-          ).done(onSuccess);
-        });
+        // jQuery(document).ready(function () {
+        //   $.get(
+        //     ghost.url.api('posts', {limit: 3})
+        //   ).done(onSuccess);
+        // });
     </script>
 
     <!-- jQuery -->
