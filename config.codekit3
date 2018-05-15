@@ -6718,6 +6718,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/_site\/img\/news\/moultrie.png": {
+		"ft": 32768,
+		"iS": 33986,
+		"oA": 0,
+		"oAP": "\/_site\/img\/news\/moultrie.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/_site\/img\/news\/qc_logo.png": {
 		"ft": 32768,
 		"iS": 31678,
@@ -14722,6 +14733,17 @@
 		"iS": 16304,
 		"oA": 0,
 		"oAP": "\/img\/news\/ibm_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/news\/moultrie.png": {
+		"ft": 32768,
+		"iS": 33986,
+		"oA": 0,
+		"oAP": "\/img\/news\/moultrie.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
