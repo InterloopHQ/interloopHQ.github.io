@@ -5869,7 +5869,7 @@ html {
   margin-bottom: 0;
   width: 180px;
   height: 45px;
-  background: url(https://res.cloudinary.com/dsi8lfsza/image/upload/v1474917299/interloop_euksgd.png) center/contain no-repeat; }
+  background: url(http://res.cloudinary.com/dsi8lfsza/image/upload/v1526353250/logo-light_aouacy.png) center/contain no-repeat; }
 
 .navbar-wrap {
   max-width: 1280px;
@@ -7363,6 +7363,9 @@ section.blog .divider-line {
         width: 110px; }
       .news-articles-block .news-card img.techco {
         width: 100px;
+        margin-top: 10px; }
+      .news-articles-block .news-card img.moultrie {
+        width: 150px;
         margin-top: 10px; }
 
 .jobs-block {
