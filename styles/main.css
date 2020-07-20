@@ -1,0 +1,54 @@
+
+
+body {
+    color: #fff;
+    font-family: "proxima-nova", "Proxima Nova", helvetica, arial, sans-serif !important;
+}
+
+.underlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #102A43;
+    opacity: .90;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: url('../images/bg.jpg');
+    padding: 16px;
+    overflow: hidden;
+    overflow-y: auto;
+
+    background-size: cover;
+    width: 100vw; 
+    height: 100vh;
+}
+
+header h2 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.navbar-brand {
+    margin-left: -16px;
+}
+
+
+@media (min-width: 992px) { 
+
+    .navbar-brand {
+        margin-left: 0px;
+    }
+    
+    header {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
